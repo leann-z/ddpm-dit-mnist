@@ -1,10 +1,10 @@
-#️ DDPM with Diffusion Transformers (DiT) on MNIST
+# DDPM with Diffusion Transformers (DiT) on MNIST
 
 Implementation of Denoising Diffusion Probabilistic Models (DDPM) using a Diffusion Transformer (DiT) backbone, trained on MNIST. Covers unconditional generation, class-conditional generation, classifier-free guidance (CFG), and attention map visualisation across the denoising trajectory.
 
 ---
 
-##️ Results
+## Results
 
 **Unconditional generation** — coherent digit samples after 40 epochs, converging to a training loss of ~0.022.
 
@@ -22,7 +22,7 @@ Implementation of Denoising Diffusion Probabilistic Models (DDPM) using a Diffus
 
 ---
 
-##️ Repository Structure
+## Repository Structure
 
 ```
 .
