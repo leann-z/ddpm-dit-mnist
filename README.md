@@ -6,11 +6,11 @@ Implementation of Denoising Diffusion Probabilistic Models (DDPM) using a Diffus
 
 ## Results
 
-**Unconditional generation** — coherent digit samples after 40 epochs, converging to a training loss of ~0.022.
+**Unconditional generation**: coherent digit samples after 40 epochs, converging to a training loss of ~0.022.
 
-**Conditional generation** — class-conditional samples with clear per-digit identity and stroke diversity.
+**Conditional generation**: class-conditional samples with clear per-digit identity and stroke diversity.
 
-**Classifier-free guidance** — CFG scale w=5–10 produces the sharpest samples. w≥15 causes over-saturation and distortion as samples are pushed outside the learned data distribution.
+**Classifier-free guidance**: CFG scale w=5–10 produces the sharpest samples. w≥15 causes over-saturation and distortion as samples are pushed outside the learned data distribution.
 
 | CFG Scale | Quality |
 |---|---|
